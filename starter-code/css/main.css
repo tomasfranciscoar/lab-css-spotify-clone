@@ -18,8 +18,10 @@ body {
 }
 
 .navbar {
-  height: 80px;
-  /* position: fixed; */
+  position: fixed;
+  background-color: white;
+  z-index: 99;
+  width: 100%;
 }
 
 .navbar-img {
@@ -39,8 +41,7 @@ body {
 
 .navbar-list-container {
   float: right;
-  margin: 20px;
-  margin-left: 550px;
+  padding: 20px;
 }
 
 .navbar-list-item {
